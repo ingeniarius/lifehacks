@@ -1,4 +1,31 @@
 Create Google Chrome/Chromium Application Shortcuts on Mac OSX
-
+==========
 usage:
 ruby ./create_web_application_shortcut.rb <AppName> <AppURL> [AppIconURL]
+
+
+mesh.js
+=========
+Layout grid for web page.
+Dependency: jquery. 
+Usage: 
+
+Mesh.vguide({ left : 50 });
+Mesh.vguide({ width : 480 });
+Mesh.vguide({ width : 480,  right : 144 });
+Mesh.vguide({ right: 50 });
+Mesh.hguide({ top: 100 });
+
+Mesh.mesh({
+    left: 0,
+    right: 0,
+    width: 980,
+    gutter : 18,
+    columns: 12,
+    centered : true,
+    row: 18,
+    order: 3
+    });
+});
+
+
